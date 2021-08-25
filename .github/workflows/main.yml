@@ -21,6 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       MODEL_DIRECTORY: "models"
+      RASA_URL: ${{ secrets.RASA_URL }}
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
