@@ -32,14 +32,14 @@ jobs:
       - name: Rasa Train-Test Model GitHub Action
         # You may pin to the exact commit or the version.
         # uses: RasaHQ/rasa-train-test-gha@c8ef0eff3c525e3d8fc928b19bed1105073fe8f0
-        uses: RasaHQ/rasa-train-test-gha@2.0.0
+        uses: RasaHQ/rasa-train-test-gha@main
         with:
           # The Rasa version used to run test and train
           rasa_version: latest-full # default is latest-full
           # Run rasa train
           rasa_train: true # default is true
           # Run rasa test
-          rasa_test: false # default is true
+          rasa_test: true # default is true
           # Fine-tune model
           fine_tune: false # optional, default is false
           # Validates domain and data files to check for possible mistakes
