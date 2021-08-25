@@ -22,6 +22,7 @@ jobs:
     env:
       MODEL_DIRECTORY: "models"
       RASA_URL: ${{ secrets.RASA_URL }}
+      RASA_TOKEN: ${{ secrets.RASA_TOKEN }}
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -58,4 +59,4 @@ jobs:
 
       - name: Upload Model to Rasa
         run: |
-          curl -k -F "model=@${MODELNAME}" "${RASA_URL}/model"
+          curl -k -F "model=@${MODELNAME}" "${RASA_URL}/projects/default/models?api_token=${RASA_TOKEN}"
