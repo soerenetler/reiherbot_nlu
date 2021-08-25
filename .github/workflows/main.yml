@@ -42,7 +42,7 @@ jobs:
           data_validate: true # default is true
           
       - name: Upload model
-        if: github.ref == 'refs/heads/main'
+        #if: github.ref == 'refs/heads/main'
         uses: actions/upload-artifact@master
         with:
           name: model
