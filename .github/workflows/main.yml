@@ -47,3 +47,12 @@ jobs:
         with:
           name: model
           path: models
+        
+      - name: Get path to model
+        run: |
+          ls -R
+          echo "MODELNAME=${{ env.MODEL_DIRECTORY }}/$(ls ${{ env.MODEL_DIRECTORY }})" >> $GITHUB_ENV
+
+      - name: Upload Model to Rasa
+        run: |
+          curl -k -F "model=@${MODELNAME}" "${RASA_URL}/api/projects/default/models?api_token={your_api_token}"
