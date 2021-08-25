@@ -39,7 +39,7 @@ jobs:
           # Run rasa train
           rasa_train: true # default is true
           # Run rasa test
-          rasa_test: false # default is true
+          rasa_test: true # default is true
           # Fine-tune model
           fine_tune: false # optional, default is false
           # Validates domain and data files to check for possible mistakes
