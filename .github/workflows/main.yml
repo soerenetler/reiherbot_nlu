@@ -57,4 +57,4 @@ jobs:
 
       - name: Upload Model to Rasa
         run: |
-          curl -k -F "model=@${MODELNAME}" "${RASA_URL}/api/projects/default/models?api_token={your_api_token}"
+          curl -k -F "model=@${MODELNAME}" "${RASA_URL}/api/projects/default/models"
