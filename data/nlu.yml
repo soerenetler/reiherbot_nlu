@@ -1,92 +1,199 @@
 version: "2.0"
 
 nlu:
-- intent: greet
+- intent: ja
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
-
-- intent: goodbye
-  examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
-
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
+    - Klaro
+    - Ci
+    - Cí
+    - Yesss
+    - Jawohl
+    - Gefunden
+    - yupp
+    - jes
+    - dabie
+    - Bin dabei
+    - Jawoll
+    - Yes
+    - Yo
+    - Joa
+    - Yap
+    - Ok
+    - Ja
+    - Klar
+    - Auf jeden
+    - jep
+    - Auf jeden Fall
+    - yep
+    - Okay
+    - jawol
+    - Yess
+    - Jo
+    - Jap
+    - yop
+    - yup
+    - Oki
+    - kay
+    - 👌
+    - 👍
+    - 💪
+    - 🤚
+    - abgemacht
+    - all right
+    - alle Mal
+    - allemal
+    - allerdings
+    - allright
+    - angekommen
+    - ausreichend
+    - bereit
+    - bestimmt
+    - bin bereit
+    - bin da
+    - bin hier
+    - breit
+    - d'accord
+    - da
+    - daccord
+    - done
+    - ein verstanden
+    - einverstanden
+    - fertig
+    - find ich gut
+    - find ich super
+    - found it
+    - fraglos
+    - freili
+    - freilich
+    - gebongt
+    - gecheckt
+    - gechekt
+    - geschafft
+    - gescheckt
+    - gewis
+    - gewiss
+    - gewiß
+    - glaub schon
+    - glaube schon
+    - gud
+    - gut
+    - here
+    - hier
+    - immer
+    - in der Tat
+    - is geritzt
+    - ist geritzt
+    - jut
+    - kan losgehen
+    - kann losgehen
+    - logen
+    - logo
+    - made it
+    - meinet wegen
+    - meinetwegen
+    - mit Sicherheit
+    - na logo
+    - natuerlich
+    - natürlich
     - of course
-    - that sounds good
-    - correct
+    - oke
+    - okey
+    - oki doki
+    - okidoki
+    - ordnungsgemäß
+    - positiv
+    - readi
+    - ready
+    - redy
+    - sicher
+    - sure
+    - top
+    - topp
+    - tuerlich
+    - türlich
+    - vermutlich
+    - von mir aus
+    - wahrlich
+    - wahrscheinlich
+    - warlich
+    - wen’s sein muss
+    - wenn’s sein muss
+    - wenns sein muss
+    - wens sein muss
+    - zweifellos
 
-- intent: deny
+- intent: nein
   examples: |
+    - Nein
+    - Nope
+    - nop
+    - Nee
+    - ne
+    - neee
+    - nain
+    - nö
+    - auf keinen Fall
+    - auf keinsten
     - no
-    - n
+    - nada
+    - nien
+    - nicht
     - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - 👎
+    - 🙅‍♀️
+    - 🙅‍♂️
+    - nimmermehr
+    - negativ
+    - veto
+    - weto
+    - keinesfalls
+    - nie und nimmer
+    - nieundnimmer
+    - sicher nicht
+    - unmöglich
+    - i wo
+    - mitnichten
+    - keineswegs
+    - gar nicht
 
-- intent: mood_great
+- intent: weiter
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - weiter
+    - next
+    - nächster
+    - weit
+    - witer
+    - weitr
+    - überspringen
+    - uberspringen
+    - ueberspringen
+    - ueber springen
+    - waiter
 
-- intent: mood_unhappy
+- intent: wohin
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - wohin
+    - wo
+    - weg
+    - wo lang
+    - route
+    - ziel
+    - ort
+    - woin
+    - treffpunkt
+    - GPS
+    - way
+    - where
+    - location
+    - Gefunden
+    - bin da
+    - bin hier
+    - da
+    - hier
+    - angekommen
+    - geschafft
+    - fertig
+    - done
+    - made it
+    - here
+    - found it
