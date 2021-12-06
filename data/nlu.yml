@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: ja
   examples: |
@@ -121,7 +120,8 @@ nlu:
     - wenns sein muss
     - wens sein muss
     - zweifellos
-
+    - ja
+    - Sehr gern! :)
 - intent: nein
   examples: |
     - Nein
@@ -155,7 +155,6 @@ nlu:
     - mitnichten
     - keineswegs
     - gar nicht
-
 - intent: weiter
   examples: |
     - weiter
@@ -169,7 +168,8 @@ nlu:
     - ueberspringen
     - ueber springen
     - waiter
-
+    - Zum nächsten Schritt 😝
+    - nächster Schritt 👍
 - intent: wohin
   examples: |
     - wohin
