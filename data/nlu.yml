@@ -170,6 +170,18 @@ nlu:
     - waiter
     - Zum nächsten Schritt 😝
     - nächster Schritt 👍
+    - Gefunden
+    - bin da
+    - bin hier
+    - da
+    - hier
+    - angekommen
+    - geschafft
+    - fertig
+    - done
+    - made it
+    - here
+    - found it
 - intent: wohin
   examples: |
     - wohin
@@ -185,15 +197,3 @@ nlu:
     - way
     - where
     - location
-    - Gefunden
-    - bin da
-    - bin hier
-    - da
-    - hier
-    - angekommen
-    - geschafft
-    - fertig
-    - done
-    - made it
-    - here
-    - found it
