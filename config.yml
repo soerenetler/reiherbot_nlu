@@ -1,3 +1,4 @@
+recipe: default.v1
 language: de
 policies:
 # # No configuration for policies was provided. The following default policies were used to train your model.
