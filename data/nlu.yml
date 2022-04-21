@@ -110,6 +110,7 @@ nlu:
     - zweifellos
     - ja
     - Sehr gern! :)
+    - kalr doch
 - intent: nein
   examples: |
     - Nein
@@ -170,6 +171,7 @@ nlu:
     - made it
     - here
     - found it
+    - ich bin immer bereit
 - intent: wohin
   examples: |
     - wohin
@@ -185,3 +187,5 @@ nlu:
     - way
     - where
     - location
+    - wo soll ich hin?
+    - wie finde ich den Weg?
